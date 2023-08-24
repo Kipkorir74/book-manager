@@ -9,8 +9,7 @@ import useDarkMode from './utils/useDarkMode';
 import { lightTheme, darkTheme } from './components/Themes';
 
 const App = () => {
-  const [theme, themeToggler] = useDarkMode();
-
+  const [theme, themeToggler] = useDarkMode()
   const themeMode = theme === 'light' ? darkTheme : lightTheme;
   return (
     <ThemeProvider theme={themeMode}>

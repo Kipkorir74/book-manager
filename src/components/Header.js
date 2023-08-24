@@ -103,7 +103,7 @@ const Header = ({ theme, toggleTheme }) => {
     <NavBar>
       <NavContainer as="div">
         <div>
-          <h2>Bookstore CMS</h2>
+          <h2>My Book Library</h2>
         </div>
         <nav>
           {links.map((link) => (
